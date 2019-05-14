@@ -1,0 +1,2 @@
+# PickerBot
+Simple PickerBot Script
