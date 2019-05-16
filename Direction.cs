@@ -8,11 +8,12 @@ namespace PickerBot
     W
   };
 
-  public class Direction
+  public class CDirection
   {
       public static bool TryParseDirection(char letter, out Direction dir)
         {
             letter = char.ToUpper(letter);
+            dir = Direction.N;
 
             switch(letter)
             {
