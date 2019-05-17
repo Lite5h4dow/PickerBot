@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\storm\\source\\repos\\PickerBot\\PickerBot\\PickerBot.csproj": {}
+    "C:\\Users\\storm\\OneDrive\\Documents\\GitHub\\PickerBot\\PickerBot\\PickerBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\storm\\source\\repos\\PickerBot\\PickerBot\\PickerBot.csproj": {
+    "C:\\Users\\storm\\OneDrive\\Documents\\GitHub\\PickerBot\\PickerBot\\PickerBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\storm\\source\\repos\\PickerBot\\PickerBot\\PickerBot.csproj",
+        "projectUniqueName": "C:\\Users\\storm\\OneDrive\\Documents\\GitHub\\PickerBot\\PickerBot\\PickerBot.csproj",
         "projectName": "PickerBot",
-        "projectPath": "C:\\Users\\storm\\source\\repos\\PickerBot\\PickerBot\\PickerBot.csproj",
+        "projectPath": "C:\\Users\\storm\\OneDrive\\Documents\\GitHub\\PickerBot\\PickerBot\\PickerBot.csproj",
         "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\storm\\source\\repos\\PickerBot\\PickerBot\\obj\\",
+        "outputPath": "C:\\Users\\storm\\OneDrive\\Documents\\GitHub\\PickerBot\\PickerBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

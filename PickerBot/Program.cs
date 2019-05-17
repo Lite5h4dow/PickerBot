@@ -65,9 +65,6 @@ namespace PickerBot
                     case 0:
                         if (input != "") return;
 
-                        // add command here maybe
-
-                        // move this somewhere where you can trigger the move robot command from unit test
                         robots.ForEach(entity => {
                             if(entity.Commands == null)
                             {
