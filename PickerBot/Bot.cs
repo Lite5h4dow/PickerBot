@@ -4,10 +4,10 @@ using System.Text;
 
 namespace PickerBot
 {
-    public class Bot
+    public class Bot : IPosition
     {
-        public int X;
-        public int Y;
+        public int X {get; set;}
+        public int Y {get; set;}
         public Direction Dir;
         public List<char> Commands;
 

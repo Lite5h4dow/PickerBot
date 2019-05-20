@@ -11,6 +11,7 @@ namespace PickerBot
             var grid = new Int2();
             var robots = new List<Bot>();
             bool verbose = false;
+            bool removeCommand = true;
 
             while (true)
             {
@@ -22,11 +23,11 @@ namespace PickerBot
                         return;
 
                     case "v":
-                        switch (verbose)
-                        {
-                            case true: verbose = false; break;
-                            case false: verbose = true; break;
-                        }
+                        verbose = !verbose;
+                        break;
+
+                    case "c":
+                        removeCommand = !removeCommand;
                         break;
 
                     default:
@@ -49,15 +50,15 @@ namespace PickerBot
                     case 2:
                         {
                             RobotBuilder.LineToGridSize(input, out grid.X, out grid.Y);
-                            break;
-                        }
-                    case 3:
-                        {
                             if (grid.X == 0 || grid.Y == 0)
                             {
                                 Console.WriteLine("Please Change grid to Valid Value.");
                                 return;
                             }
+                            break;
+                        }
+                    case 3:
+                        {
                             robots.Add(new Bot(int.Parse(parts[0]), int.Parse(parts[1]), (Direction)char.ToUpper(parts[2].Trim()[0])));
                         }
                         break;
@@ -72,7 +73,7 @@ namespace PickerBot
                                 return;
                             }
                             entity.Commands.ForEach(command => {
-                                if (entity.X > grid.X || entity.X < 0 || entity.Y > grid.Y || entity.Y < 0) return;
+                                if (BotController.BoundsCheck(entity, grid.X, grid.Y)) return;
                                 if(entity.CommandValid(command, grid.X, grid.Y))
                                     entity.ProcessCommand(command);
                                 if (verbose)
@@ -80,9 +81,11 @@ namespace PickerBot
                                     Console.WriteLine($"{entity.X} {entity.Y} {(char)entity.Dir}");
                                 }
                             });
-                            if (entity.X > grid.X || entity.X < 0 || entity.Y > grid.Y || entity.Y < 0) Console.WriteLine("Bot Out Of Bounds!");
 
-                            entity.Commands = null;
+                            if(BotController.BoundsCheck(entity, grid.X, grid.Y))
+                                Console.WriteLine("Bot Out Of Bounds!");
+
+                            if(removeCommand) BotController.RemoveCommands(entity);
 
                             Console.WriteLine($"{entity.X} {entity.Y} {(char)entity.Dir}");
                             Console.WriteLine("");

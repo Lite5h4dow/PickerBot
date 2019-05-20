@@ -9,3 +9,14 @@ C:\Users\storm\source\repos\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBo
 C:\Users\storm\source\repos\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.pdb
 C:\Users\storm\source\repos\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.dll
 C:\Users\storm\source\repos\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.pdb
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.deps.json
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.runtimeconfig.json
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.runtimeconfig.dev.json
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.dll
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\bin\Debug\netcoreapp2.2\PickerBot.pdb
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.csprojAssemblyReference.cache
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.csproj.CoreCompileInputs.cache
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.AssemblyInfoInputs.cache
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.AssemblyInfo.cs
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.dll
+C:\Users\storm\OneDrive\Documents\GitHub\PickerBot\PickerBot\obj\Debug\netcoreapp2.2\PickerBot.pdb
